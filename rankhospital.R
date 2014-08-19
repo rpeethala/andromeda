@@ -21,7 +21,7 @@ rankhospital<-function(state,outcome,num)
     a<-na.omit(a)
     aa<-a[order(as.numeric(a[,3]),a[,1]),]
     x<-aa[1,1]
-    ##return(x)
+    return(x)
   }
   
   if (outcome =="heart failure")
